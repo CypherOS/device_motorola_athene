@@ -6,6 +6,12 @@
 	"remote":      "github"
   },
   {
+    "repository":  "boulzordev/proprietary_vendor_motorola_athene",
+    "target_path": "vendor/motorola",
+	"branch":      "cm-14.1",
+	"remote":      "github"
+  },
+  {
     "repository":  "android_external_bson",
     "target_path": "external/bson",
 	"branch":      "cm-13.0",
