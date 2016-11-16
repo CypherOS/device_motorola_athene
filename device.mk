@@ -111,7 +111,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     libbson \
-    Snap
+    Camero
 
 # CMActions
 PRODUCT_PACKAGES += \
