@@ -177,6 +177,10 @@ PRODUCT_PACKAGES += \
     libOmxVidcCommon \
     libstagefrighthw \
     libstagefright_soft_flacdec
+    libstagefright_soft_flacdec \
+    libOmxCore \
+    libOmxVdec \
+    libOmxVenc
 
 # IPA Manager
 PRODUCT_PACKAGES += \
