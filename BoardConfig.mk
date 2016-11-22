@@ -44,7 +44,7 @@ TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 
 # Kernel
-BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
@@ -106,9 +106,11 @@ OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216	# 16384 * 1024 mmcblk0p28
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216	# 16384 * 1024 mmcblk0p29
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2684354560	# 2621440 * 1024 mmcblk0p47
-BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432	# 32768 * 1024 mmcblk0p30
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2600255488	# 2539312 * 1024 mmcblk0p47
+BOARD_PERSISTIMAGE_PARTITION_SIZE := 28819456	# 28144 * 1024 mmcblk0p30
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 27258650624 # 26619776 * 1024 mmcblk0p48
+BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_CACHEIMAGE_PARTITION_SIZE := 260014080 # 253920 * 1024 mmcblk0p46
 
 # FM
 TARGET_QCOM_NO_FM_FIRMWARE := true
