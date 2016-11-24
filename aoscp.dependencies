@@ -12,6 +12,12 @@
         "remote":      "tm"
   },
   {
+    "repository":  "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+        "branch":      "cm-14.1",
+        "remote":      "cm"
+  },
+  {
     "repository":  "android_external_bson",
     "target_path": "external/bson",
 	"branch":      "cm-13.0",
