@@ -34,7 +34,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(final Context context, Intent intent) {
         Log.i(TAG, "Booting");
-        enableComponent(context, TouchscreenGesturePreferenceFragment.class.getName());
+        enableComponent(context, TouchscreenGestureSettings.class.getName());
         context.startService(new Intent(context, ServiceWrapper.class));
     }
 
