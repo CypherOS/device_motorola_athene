@@ -7,7 +7,7 @@
   },
   {
     "repository":  "boulzordev/proprietary_vendor_motorola_athene",
-    "target_path": "vendor/motorola",
+    "target_path": "vendor/motorola/athene",
 	"branch":      "cm-14.1",
 	"remote":      "github"
   },
