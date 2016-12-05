@@ -16,9 +16,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Gesture shortcuts -->
-    <string name="screen_gestures_panel_title">Gesture shortcuts</string>
-
+    <!-- Motion gestures -->
+    <string name="screen_gestures_panel_title">Motion gestures</string>
+  
+    <!-- Fingerprint -->
+    <string name="fp_title">Fingerprint</string>
+    <string name="fp_home_title">Fingerprint home button</string>
+    <string name="fp_home_summary">Use your fingerprint reader as a HOME key</string>
+  
+    <!-- Ambient display -->
     <string name="ambient_display_title">Ambient display</string>
 
     <string name="pick_up_gesture_title">Pick-up</string>
@@ -46,11 +52,6 @@
 
     <string name="lift_to_silence_title">Pick up to stop ringing</string>
     <string name="lift_to_silence_summary">Lift the phone to silence incoming calls. It only works when your phone starts flat</string>
-
-    <!-- Fingerprint -->
-    <string name="fp_title">Fingerprint</string>
-    <string name="fp_home_title">Fingerprint home button</string>
-    <string name="fp_home_summary">Use your fingerprint reader as a HOME key</string>
 
 </resources>
 
