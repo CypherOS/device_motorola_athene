@@ -6,7 +6,6 @@ allow mmi-laser-sh kmsg_device:chr_file { open write };
 allow mmi-laser-sh persist_file:dir search;
 allow mmi-laser-sh persist_file:file { getattr read open };
 allow mmi-laser-sh rootfs:file { open read entrypoint };
-allow mmi-laser-sh rootfs:lnk_file getattr;
 allow mmi-laser-sh self:capability { dac_read_search dac_override };
 allow mmi-laser-sh shell_exec:file { read getattr };
 allow mmi-laser-sh sysfs:file { getattr open write };

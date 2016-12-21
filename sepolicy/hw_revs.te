@@ -10,4 +10,3 @@ allow hw_revs system_file:file execute_no_trans;
 allow hw_revs sysfs:file { open read getattr };
 allow hw_revs toolbox_exec:file { execute execute_no_trans getattr open read };
 allow hw_revs sysfs:dir { open read };
-allow hw_revs rootfs:lnk_file getattr;

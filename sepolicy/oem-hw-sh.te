@@ -8,7 +8,6 @@ allow oem-hw-sh kmsg_device:chr_file { write open };
 allow oem-hw-sh proc:file { getattr open read write };
 allow oem-hw-sh property_socket:sock_file write;
 allow oem-hw-sh rootfs:file { entrypoint open read };
-allow oem-hw-sh rootfs:lnk_file getattr;
 allow oem-hw-sh self:capability dac_override;
 allow oem-hw-sh shell_exec:file { getattr read };
 allow oem-hw-sh system_file:file execute_no_trans;
