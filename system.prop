@@ -191,7 +191,6 @@ ro.pip.gated=0
 
 # FM
 ro.fm.transmitter=false
-
 # Coresight
 persist.debug.coresight.config=stm-events
 
